@@ -14,8 +14,8 @@ const ProjectContainer = ({title, purpose, description, img}:Props) => {
                 <h3 className='text-3xl font-bold'>{title}</h3>
                 <p><span className='font-bold'>{purpose} </span>- {description}</p>
 
-                <div className='h-[200px] sm:h-[300px] md:h-[400px] w-full relative -bottom-12 lg:w-[90%] mx-auto bg-black lg:h-[550px] xl:[650px] lg:mt-8 rounded-2xl overflow-hidden'>
-                    <img src={img} alt="" />
+                <div className='max-h-[300px] sm:max-h-[400px] md:max-h-[500px] w-full relative -bottom-12 lg:w-[90%] mx-auto border border-gray-300 lg:max-h-[600px] xl:max-h-[750px] lg:mt-8 rounded-2xl overflow-hidden'>
+                    <img src={img} alt="Project image"  className="w-full h-full"/>
                 </div>
             </div>
         </div>
