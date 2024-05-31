@@ -16,12 +16,12 @@ function Desktop(){
         <Link to="/"><h1 className='island text-6xl text-white'>ME</h1></Link>
         <nav className='flex h-full items-center gap-8'>
             <ul className='flex gap-8 h-full items-center'>
-                <li className='list-none h-full'><Link to="/" className='flex items-center justify-center px-2 text-white h-full  border-b-4 border-white'>Home</Link></li>
-                <li className='list-none h-full'><Link to="/" className='flex items-center justify-center px-2 text-white h-full'>Projects</Link></li>
-                <li className='list-none h-full'><Link to="/" className='flex items-center justify-center px-2 text-white h-full'>About</Link></li>
+                <li className='list-none h-full'><a href="#home" className='flex items-center justify-center px-2 text-white h-full'>Home</a></li>
+                <li className='list-none h-full'><a href="#projects" className='flex items-center justify-center px-2 text-white h-full'>Projects</a></li>
+                <li className='list-none h-full'><a href="#about" className='flex items-center justify-center px-2 text-white h-full'>About</a></li>
             </ul>
             <span className='h-full w-[1px] bg-white'></span>
-            <li className='list-none'><Link to="/" className='text-white bg-[#05A5FF] py-2 px-4 rounded'>Let's Chat</Link></li>
+            <li className='list-none'><a href="#contact" className='text-white bg-[#05A5FF] py-2 px-4 rounded'>Let's Chat</a></li>
         </nav>
     </div>
 </header>
@@ -45,10 +45,10 @@ function Mobile(){
                         setIsOpen(prev => !prev)
                     }}></div>
                 <ul className='flex flex-col gap-4  items-center'>
-                    <li className='list-none'><Link to="/" className='flex items-center justify-center px-2 text-white text-3xl'>Home</Link></li>
-                    <li className='list-none'><Link to="/" className='flex items-center justify-center px-2 text-white text-3xl'>Projects</Link></li>
-                    <li className='list-none'><Link to="/" className='flex items-center justify-center px-2 text-white text-3xl'>About</Link></li>
-                    <li className='list-none'><Link to="/" className='flex items-center justify-center px-2 text-white text-3xl'>Contact</Link></li>
+                    <li className='list-none'><a href="#home" className='flex items-center justify-center px-2 text-white text-3xl'>Home</a></li>
+                    <li className='list-none'><a href="#projects" className='flex items-center justify-center px-2 text-white text-3xl'>Projects</a></li>
+                    <li className='list-none'><a href="#about" className='flex items-center justify-center px-2 text-white text-3xl'>About</a></li>
+                    <li className='list-none'><a href="#contact" className='flex items-center justify-center px-2 text-white text-3xl'>Contact</a></li>
                 </ul>
             </nav>
         </>

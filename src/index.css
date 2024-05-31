@@ -5,6 +5,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 8rem;
+}
+
 body{
     font-family: "Nunito", sans-serif;
     font-style: normal;

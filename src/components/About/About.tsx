@@ -26,7 +26,7 @@ import figma from '../../assets/figma.svg'
 
 const About = () => {
   return (
-    <div className='container px-4 lg:px-8 mx-auto my-8 py-8'>
+    <div id='about' className='container px-4 lg:px-8 mx-auto my-8 py-8'>
         <h2 className='text-6xl'>ABOUT ME</h2>
         <p className="text-xs">Everyone has a unique story. Here is mine.</p>
         <div className="relative w-full flex items-center md:gap-16 lg:gap-36 mt-8">
@@ -37,7 +37,7 @@ const About = () => {
                 <p className="text-sm lg:text-xl">I am happy and exited to make a leap and continue refining my skills with the right company. If you are looking for a great developer or engineer to add to your team, I’d love to hear from you.</p>
             </div>
             <div className='hidden md:block md:w-[30%] md:h-[300px] lg:w-[28%]  lg:h-[400px]'>
-                <img src={about} alt="" className='w-full h-full' />
+                <img src={about} alt="Also another picuter of me" className='w-full h-full' />
             </div>
             <div className="hidden absolute -right-24 bottom-16 md:flex items-center gap-4 rotate-90">
                 <p>essienmichael4@gmail.com</p>
