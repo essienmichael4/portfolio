@@ -42,7 +42,7 @@ function Mobile(){
                     <div className='w-8 h-8 text-white' onClick={()=>{
                         setIsOpen(prev => !prev)
                     }}>
-                        <img src={menu} className='w-8 h-8 text-white' alt="" />
+                        <img src={menu} className='w-8 h-8 text-white' alt="Menu icon" />
                     </div>
                 </div>
             </header>
@@ -50,7 +50,7 @@ function Mobile(){
             <div className='absolute right-4 top-4 w-8 h-8 ' onClick={()=>{
                         setIsOpen(prev => !prev)
                     }}>
-                        <img src={close} className='w-8 h-8 text-white' alt="" />
+                        <img src={close} className='w-8 h-8 text-white' alt="Close icon" />
                     </div>
                 <ul className='flex flex-col gap-4  items-center'>
                     <li className='list-none'><a href="#home" className='flex items-center justify-center px-2 text-white text-3xl'>Home</a></li>
