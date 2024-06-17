@@ -54,91 +54,91 @@ const About = () => {
                 <div className='w-full sm:w-[60%]'>
                     <p className="text-xs text-[#05A5FF]">Technical Skills</p>
                     <div className='flex flex-wrap gap-4 w-full'>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={html} className='w-8 h-8' alt="" />
                             <span className='text-xs'>html</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={css} className='w-8 h-8' alt="" />
                             <span className='text-xs'>css</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={js} className='w-8 h-8' alt="" />
                             <span className='text-xs'>js</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={ts} className='w-8 h-8' alt="" />
                             <span className='text-xs'>ts</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={java} className='w-8 h-8' alt="" />
                             <span className='text-xs'>java</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={react} className='w-8 h-8' alt="" />
                             <span className='text-xs'>react</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={next} className='w-8 h-8' alt="" />
                             <span className='text-xs'>next</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={angular} className='w-8 h-8' alt="" />
                             <span className='text-xs'>angular</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={nest} className='w-8 h-8' alt="" />
                             <span className='text-xs'>nest</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={node} className='w-8 h-8' alt="" />
                             <span className='text-xs'>node</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={express} className='w-8 h-8' alt="" />
                             <span className='text-xs'>express</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={git} className='w-8 h-8' alt="" />
                             <span className='text-xs'>git</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={github} className='w-8 h-8' alt="" />
                             <span className='text-xs'>github</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={scss} className='w-8 h-8' alt="" />
                             <span className='text-xs'>sass</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={tailwindcss} className='w-8 h-8' alt="" />
                             <span className='text-xs'>tailwind</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={prisma} className='w-8 h-8' alt="" />
                             <span className='text-xs'>prisma</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={mysql} className='w-8 h-8' alt="" />
                             <span className='text-xs'>mysql</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={postgresql} className='w-8 h-8' alt="" />
                             <span className='text-xs'>postgres</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={postman} className='w-8 h-8' alt="" />
                             <span className='text-xs'>postman</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={springboot} className='w-8 h-8' alt="" />
                             <span className='text-xs'>springboot</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={jira} className='w-8 h-8' alt="" />
                             <span className='text-xs'>jira</span>
                         </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
+                        <div className='px-2 rounded py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={figma} className='w-8 h-8' alt="" />
                             <span className='text-xs'>figma</span>
                         </div>
@@ -147,11 +147,11 @@ const About = () => {
                 <div className='w-full sm:w-[30%]'>
                     <p className="text-xs text-[#05A5FF]">Soft Skills</p>
                     <div className='flex flex-wrap gap-4 w-full'>
-                        <p className='px-2 py-1 bg-slate-200'>Team work</p>
-                        <p className='px-2 py-1 bg-slate-200'>Collaboration</p>
-                        <p className='px-2 py-1 bg-slate-200'>Problem solving</p>
-                        <p className='px-2 py-1 bg-slate-200'>Accountability</p>
-                        <p className='px-2 py-1 bg-slate-200'>Written and verbal communication</p>
+                        <p className='rounded px-2 py-1 bg-slate-200'>Team work</p>
+                        <p className='rounded px-2 py-1 bg-slate-200'>Collaboration</p>
+                        <p className='rounded px-2 py-1 bg-slate-200'>Problem solving</p>
+                        <p className='rounded px-2 py-1 bg-slate-200'>Accountability</p>
+                        <p className='rounded px-2 py-1 bg-slate-200'>Written and verbal communication</p>
                     </div>
                 </div>
             </div>
@@ -197,13 +197,13 @@ const About = () => {
                         <p className='text-sm'>Collaborated with other engineers on internal projects to create new tools and systems for the organisation.</p>
                     </div>
                     <div className='flex flex-wrap gap-4'>
-                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Typescript</span>
-                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Java</span>
-                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Angular</span>
-                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Spring Boot</span>
-                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Postgresql</span>
-                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Tailwind Css</span>
-                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Figma</span>
+                        <span className='px-2 py-1 rounded bg-[#aadaf798] text-[#05A5FF]'>Typescript</span>
+                        <span className='px-2 py-1 rounded bg-[#aadaf798] text-[#05A5FF]'>Java</span>
+                        <span className='px-2 py-1 rounded bg-[#aadaf798] text-[#05A5FF]'>Angular</span>
+                        <span className='px-2 py-1 rounded bg-[#aadaf798] text-[#05A5FF]'>Spring Boot</span>
+                        <span className='px-2 py-1 rounded bg-[#aadaf798] text-[#05A5FF]'>Postgresql</span>
+                        <span className='px-2 py-1 rounded bg-[#aadaf798] text-[#05A5FF]'>Tailwind Css</span>
+                        <span className='px-2 py-1 rounded bg-[#aadaf798] text-[#05A5FF]'>Figma</span>
                     </div>
                 </div>
             
@@ -216,11 +216,11 @@ const About = () => {
                         <p className='text-sm'>Design, develop and style high quality website and systems used internally by the organisation</p>
                     </div>
                     <div className='flex flex-wrap gap-4'>
-                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Javascript</span>
-                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Php</span>
-                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>HTML</span>
-                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Scss</span>
-                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Mysql</span>
+                        <span className='px-2 py-1 rounded bg-[#aadaf798] text-[#05A5FF]'>Javascript</span>
+                        <span className='px-2 py-1 rounded bg-[#aadaf798] text-[#05A5FF]'>Php</span>
+                        <span className='px-2 py-1 rounded bg-[#aadaf798] text-[#05A5FF]'>HTML</span>
+                        <span className='px-2 py-1 rounded bg-[#aadaf798] text-[#05A5FF]'>Scss</span>
+                        <span className='px-2 py-1 rounded bg-[#aadaf798] text-[#05A5FF]'>Mysql</span>
                     </div>
                 </div>
             </div>
