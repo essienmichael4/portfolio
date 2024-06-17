@@ -10,7 +10,7 @@ const ProjectContainer = ({title, purpose, description, img}:Props) => {
     <div className='flex flex-col gap-8 w-full mt-8'>
         <div className="border border-gray-300 rounded-2xl p-2">
             <div className="border border-gray-300 rounded-2xl px-4 pt-4 lg:px-8 lg:pt-8 overflow-hidden">
-                <p className='text-xs text-'>Featured Project</p>
+                <p className='text-xs text-[#05A5FF]'>Featured Project</p>
                 <h3 className='text-3xl font-bold'>{title}</h3>
                 <p><span className='font-bold'>{purpose} </span>- {description}</p>
 

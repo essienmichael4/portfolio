@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import about from '../../assets/about.jpg'
 import html from '../../assets/html.svg'
 import css from '../../assets/css.svg'
@@ -27,8 +29,8 @@ import figma from '../../assets/figma.svg'
 const About = () => {
   return (
     <div id='about' className='container px-4 lg:px-8 mx-auto my-8 py-8'>
-        <h2 className='text-6xl'>ABOUT ME</h2>
-        <p className="text-xs">Everyone has a unique story. Here is mine.</p>
+        <h2 className='text-6xl text-[#0C0C0C96]'>ABOUT ME</h2>
+        <p className="text-xs text-[#05A5FF]">Everyone has a unique story. Here is mine.</p>
         <div className="relative w-full flex items-center md:gap-16 lg:gap-36 mt-8">
             <div className="w-full md:w-[45%] flex flex-col gap-4">
                 <p className="text-sm lg:text-xl">I always thought I’d become an architect growing up, designing houses for people to stay in. I guess I’m still in the business of designing and creating, but not as an architect.</p>
@@ -40,20 +42,19 @@ const About = () => {
                 <img src={about} alt="Also another picuter of me" className='w-full h-full' />
             </div>
             <div className="hidden absolute -right-24 bottom-16 md:flex items-center gap-4 rotate-90">
-                <p>essienmichael4@gmail.com</p>
-                <div className='w-16 h-1 bg-black'></div>
+                <p className='text-gray-300'>essienmichael4@gmail.com</p>
+                <div className='w-16 h-1 bg-gray-300'></div>
             </div>
         </div>
         <div className='flex items-center gap-4 mt-8'>
-            <div className='w-8 h-8 bg-black'></div>
-            <div className='w-8 h-8 bg-black'></div>
-            <div className='w-8 h-8 bg-black'></div>
+            <a href="https://www.linkedin.com/in/essien-michael" target='_blank' rel='noopener noreferrer' className='flex items-center justify-center gap-4'><FontAwesomeIcon className='w-8 h-8 text-[#0C0C0C65]' icon={faLinkedin} /></a>
+            <a href="https://www.github.com/essienmichael4" target='_blank' rel='noopener noreferrer' className='flex items-center justify-center gap-4'><FontAwesomeIcon className='w-8 h-8 text-[#0C0C0C65]' icon={faSquareGithub}/></a>
         </div>
         <div className='py-8'>
-            <h3 className='text-3xl'>Skills & Tools</h3>
+            <h3 className='text-3xl text-[#0C0C0C96]'>Skills & Tools</h3>
             <div className='flex justify-start items-start gap-8 flex-wrap'>
                 <div className='w-full sm:w-[60%]'>
-                    <p className="text-xs">Technical Skills</p>
+                    <p className="text-xs text-[#05A5FF]">Technical Skills</p>
                     <div className='flex flex-wrap gap-4 w-full'>
                         <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={html} className='w-8 h-8' alt="" />
@@ -128,10 +129,6 @@ const About = () => {
                             <span className='text-xs'>postgres</span>
                         </div>
                         <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
-                            <img src={api} className='w-8 h-8' alt="" />
-                            <span className='text-xs'>api</span>
-                        </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={postman} className='w-8 h-8' alt="" />
                             <span className='text-xs'>postman</span>
                         </div>
@@ -140,16 +137,8 @@ const About = () => {
                             <span className='text-xs'>springboot</span>
                         </div>
                         <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
-                            <img src={api} className='w-8 h-8' alt="" />
-                            <span className='text-xs'>api</span>
-                        </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={jira} className='w-8 h-8' alt="" />
                             <span className='text-xs'>jira</span>
-                        </div>
-                        <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
-                            <img src={vscode} className='w-8 h-8' alt="" />
-                            <span className='text-xs'>vscode</span>
                         </div>
                         <div className='px-2 py-2 flex flex-col items-center gap-2 bg-slate-300'>
                             <img src={figma} className='w-8 h-8' alt="" />
@@ -158,7 +147,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className='w-full sm:w-[30%]'>
-                    <p className="text-xs">Soft Skills</p>
+                    <p className="text-xs text-[#05A5FF]">Soft Skills</p>
                     <div className='flex flex-wrap gap-4 w-full'>
                         <p className='px-2 py-1 bg-slate-200'>Team work</p>
                         <p className='px-2 py-1 bg-slate-200'>Collaboration</p>
@@ -170,23 +159,23 @@ const About = () => {
             </div>
         </div>
         <div className='py-4'>
-            <h3 className='text-3xl'>Education</h3>
-            <p className="text-xs">Where I’ve Studied</p>
+            <h3 className='text-3xl text-[#0C0C0C96]'>Education</h3>
+            <p className="text-xs text-[#05A5FF]">Where I’ve Studied</p>
             <div className='w-full flex flex-wrap py-4 gap-8'>
-                <div className='flex flex-col gap-2'>
+                <div className='flex flex-col gap-2 min-w-[300px]'>
                     <div className='flex justify-between'>
-                        <p className='text-xs'>2023-present</p>
-                        <p className='text-xs'>GPA - 3.7/4.0</p>
+                        <p className='text-xs text-gray-400'>2023-present</p>
+                        <p className='text-xs text-gray-400'>GPA - 3.7/4.0</p>
                     </div>
                     <div className='flex flex-col gap-1'>
                         <h4 className='text-xl font-bold'>BSC in Information Technology</h4>
-                        <p className='text-sm'>Ghana Communication Technology Univeersity, Ghana</p>
+                        <p className='text-sm'>Ghana Communication Technology University, Ghana</p>
                     </div>
                 </div>
-                <div className='flex flex-col gap-2'>
+                <div className='flex flex-col gap-2 min-w-[300px]'>
                     <div className='flex justify-between'>
-                        <p className='text-xs'>2019-2022</p>
-                        <p className='text-xs'>GPA - 4.2/5.0</p>
+                        <p className='text-xs text-gray-400'>2019-2022</p>
+                        <p className='text-xs text-gray-400'>GPA - 4.2/5.0</p>
                     </div>
                     <div className='flex flex-col gap-1'>
                         <h4 className='text-xl font-bold'>HND in Computer Science</h4>
@@ -198,26 +187,42 @@ const About = () => {
             </div>
         </div>
         <div className='py-4'>
-            <h3 className='text-3xl'>Experience</h3>
-            <p className="text-xs">Where I’ve Worked</p>
+            <h3 className='text-3xl text-[#0C0C0C96]'>Experience</h3>
+            <p className="text-xs text-[#05A5FF]">Where I’ve Worked</p>
             <div className='w-full flex flex-wrap py-4 gap-8'>
                 <div className='flex flex-col gap-2 max-w-[400px]'>
                     <div className='flex justify-between'>
-                        <p className='text-xs'>September 2022 - May 2023</p>
+                        <p className='text-xs text-gray-400'>September 2022 - May 2023</p>
                     </div>
                     <div className='flex flex-col gap-1'>
                         <h4 className='text-xl font-bold'>Software Engineer <span className='text-[#05A5FF]'>@ Turntabl</span></h4>
                         <p className='text-sm'>Collaborated with other engineers on internal projects to create new tools and systems for the organisation.</p>
                     </div>
+                    <div className='flex flex-wrap gap-4'>
+                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Typescript</span>
+                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Java</span>
+                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Angular</span>
+                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Spring Boot</span>
+                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Postgresql</span>
+                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Tailwind Css</span>
+                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Figma</span>
+                    </div>
                 </div>
             
                 <div className='flex flex-col gap-2  max-w-[400px]'>
                     <div className='flex justify-between'>
-                        <p className='text-xs'>September 2021 - August 2022</p>
+                        <p className='text-xs text-gray-400'>September 2021 - August 2022</p>
                     </div>
                     <div className='flex flex-col gap-1'>
                         <h4 className='text-xl font-bold'>IT Personnel <span className='text-[#05A5FF]'>@ CRIG</span></h4>
                         <p className='text-sm'>Design, develop and style high quality website and systems used internally by the organisation</p>
+                    </div>
+                    <div className='flex flex-wrap gap-4'>
+                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Javascript</span>
+                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Php</span>
+                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>HTML</span>
+                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Scss</span>
+                        <span className='px-2 py-1 bg-[#aadaf798] text-[#05A5FF]'>Mysql</span>
                     </div>
                 </div>
             </div>
