@@ -22,8 +22,6 @@ import prisma from '../../assets/prisma.svg'
 import mysql from '../../assets/mysql.svg'
 import postgresql from '../../assets/postgresql.svg'
 import postman from '../../assets/postman.svg'
-import api from '../../assets/api.svg'
-import vscode from '../../assets/vscode.svg'
 import figma from '../../assets/figma.svg'
 
 const About = () => {
