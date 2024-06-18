@@ -34,7 +34,7 @@ function Desktop(){
                         <a href="#contact" className='px-4 py-2 border border-[#05A5FF] text-[#05A5FF] rounded'>Contact Me</a>
                     </div>
                 </div>
-                <div className='absolute bottom-4 flex items-center justify-between sm:w-full lg:w-[50%]'>
+                <div className='absolute bottom-4 lg:flex items-center justify-between hidden lg:w-[50%]'>
                     <div className="flex gap-2 items-center">
                         <a href="https://www.linkedin.com/in/essien-michael" target='_blank' rel='noopener noreferrer' className='flex items-center justify-center gap-4'><FontAwesomeIcon className='w-6 h-6 text-[#0C0C0C65]' icon={faLinkedin} /></a>
                         <a href="https://www.github.com/essienmichael4" target='_blank' rel='noopener noreferrer' className='flex items-center justify-center gap-4'><FontAwesomeIcon className='w-6 h-6 text-[#0C0C0C65]' icon={faSquareGithub}/></a>

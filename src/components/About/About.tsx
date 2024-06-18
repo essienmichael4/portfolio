@@ -33,7 +33,7 @@ const About = () => {
             <div className="w-full md:w-[45%] flex flex-col gap-4">
                 <p className="text-sm lg:text-xl">I always thought I’d become an architect growing up, designing houses for people to stay in. I guess I’m still in the business of designing and creating, but not as an architect.</p>
                 <p className="text-sm lg:text-xl">I am Michael Essien, a full-stack software engineer based in Accra - Ghana. I am passionate about designing and creating beautiful, stunning and usable software that helps empower people and help them achieve their goals.</p>
-                <p className="text-sm lg:text-xl">When I’m not in front of a computer screen or programming, I’m probably reading, singing or learning a new song or I’d be travelling.</p>
+                <p className="text-sm lg:text-xl">When I’m not in front of a computer screen or programming, I’m probably reading, singing or learning a new song.</p>
                 <p className="text-sm lg:text-xl">I am happy and exited to make a leap and continue refining my skills with the right company. If you are looking for a great developer or engineer to add to your team, I’d love to hear from you.</p>
             </div>
             <div className='hidden md:block md:w-[30%] md:h-[300px] lg:w-[28%]  lg:h-[400px]'>
