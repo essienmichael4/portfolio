@@ -28,7 +28,7 @@ function Desktop(){
                     <h2 className='sm:text-6xl 2xl:text-8xl font-bold'>Hello, I’m </h2>
                     <h2 className='sm:text-6xl 2xl:text-8xl font-bold'><span className='text-[#05A5FF]'>Michael Essien</span></h2>
 
-                    <p className='w-[80%] text-sm 2xl:text-lg sm:text-center lg:text-start'>I once heard that, “If we want users to like our software, we should design it to behave like a likeable person. Define what the product will do before you design how the product will do it. Usability strength is in identifying problems, while design strength is in identifying solutions”. That has been my principle thus far.</p>
+                    <p className='w-[80%] text-sm 2xl:text-lg sm:text-center lg:text-start'>I am a passionate engineer dedicated to turning ideas into creative solutions.</p>
                     <div className='flex gap-4 mt-2'>
                         <a target='_blank' rel='noopener noreferrer' href={resume} className='px-4 py-2 bg-[#05A5FF] text-white rounded'>Download Resume</a>
                         <a href="#contact" className='px-4 py-2 border border-[#05A5FF] text-[#05A5FF] rounded'>Contact Me</a>
